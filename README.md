@@ -30,7 +30,7 @@
 
 <h4>🔺 Herokuya Dağıt 🔻</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mehmetbaba55/EfsaneMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kakkurt947/muzik)
 
 
 <h4>🔺 Okteto ile Kurulum 🔻</h4> 
@@ -44,5 +44,5 @@
 - Okteto ile value şeklinde appjson 👉 Bilgilerini doldurun.. Otomatik kurulum yapar. 
 
 ### Bu projeye yardım eden. 
-- [Bir_Beyfendi](https://github.com/BirBeyfendi): Geliştirici / 🥳
-- [Telegram](https://t.me/Bir_Beyfendi)
+- [Bir_Beyfendi](https://github.com/tommy47shelby): Geliştirici / 🥳
+- [Telegram](https://t.me/tommy47shelby)
