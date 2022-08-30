@@ -14,15 +14,15 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/tutkumusicbot?startgroup=true"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/flexmusicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/tutkuasistant"
+                        "🔊 Asistan", url="https://t.me/flexasistant"
                     ),
                     InlineKeyboardButton(
-                        "💬 Sohbet", url="https://t.me/yangazlargrup"
+                        "💬 Sohbet", url="https://t.me/destekflex"
                     )
                 ],
                 [
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🧩 Komutlar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Resmi Kanal 🇹🇷", url=f"https://t.me/yangazlargrup"
+                        "Resmi Kanal 🇹🇷", url=f"https://t.me/destekflex"
                     )
                 ]
                 
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "Ana menü🏠", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/tommy47shelby")
+                         "⚙ Geliştirici", url="https://t.me/kadirbeydiyeceksiniz")
                  ]
              ]
          )
@@ -82,7 +82,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "⚙ Geliştirici", url="https://t.me/tommy47shelby")
+            "⚙ Geliştirici", url="https://t.me/kadirbeydiyeceksiniz")
         ]
       ]
      ))
@@ -95,7 +95,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/tommy47shelby")
+                         "⚙ Geliştirici", url="https://t.me/kadirbeydiyeceksiniz")
                  ],
                  [
                      InlineKeyboardButton(
@@ -113,7 +113,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/tommy47shelby")
+                         "⚙ Geliştirici", url="https://t.me/kadirbeydiyeceksiniz")
                  ],
                  [
                      InlineKeyboardButton(
@@ -126,20 +126,20 @@ async def admin(_, query: CallbackQuery):
 
 @Client.on_callback_query(filters.regex("cbstart"))
 async def cbstart(_, query: CallbackQuery):
-    await query.edit_message_text(f"""**Merhaba {query.from_user.mention} 🎵\nBen {bot}!\nSesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [TUTKU Müzik 🎙️](https://t.me/tutkudestek).**""",
+    await query.edit_message_text(f"""**Merhaba {query.from_user.mention} 🎵\nBen {bot}!\nSesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [TUTKU Müzik 🎙️](https://t.me/destekflex).**""",
          reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/tutkumusicbot?startgroup=true"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/flexmusicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/tutkuasistant"
+                        "🔊 Asistan", url="https://t.me/flexasistant"
                     ),
                     InlineKeyboardButton(
-                        "💬 Sohbet", url="https://t.me/yangazlargrup"
+                        "💬 Sohbet", url="https://t.me/destekflex"
                     )
                 ],
                 [
@@ -147,7 +147,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🌀 Komutlar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Resmi Kanal 🇹🇷", url=f"https://t.me/yangazlargrup"
+                        "Resmi Kanal 🇹🇷", url=f"https://t.me/destekflex"
                     )
                 ]
                 
